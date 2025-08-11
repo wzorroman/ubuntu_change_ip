@@ -6,8 +6,8 @@
 
 # -------------------------------------------------------------------
 # Configuración deseada (modifica estos valores según necesites)
-NUEVA_IP="192.168.2.108/24"
-NUEVO_GATEWAY="192.168.2.1"
+NUEVA_IP="10.23.62.108/24"
+NUEVO_GATEWAY="10.23.62.1"
 INTERFAZ="enp0s3"   # Reemplaza con tu interfaz de red (usa 'ip a' para verificar)
 # -------------------------------------------------------------------
 
