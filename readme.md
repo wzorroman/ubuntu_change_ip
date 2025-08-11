@@ -24,3 +24,9 @@
   - Verifica el nombre de tu interfaz de red con ip a (puede ser ens33, eth0, etc.)
   - Si necesitas cambiar la máscara de red, modifica el sufijo en NUEVA_IP (ej: /24)
   - Para revertir cambios, usa el archivo de respaldo creado (00-installer-config.yaml.bak)
+
+# Haciendo Rollback de la configuracion
+  Uso:
+  a). Guarda el script como rollback_ip.sh
+  b). Dale permisos de ejecución: chmod +x rollback_ip.sh
+  c). Ejecútalo con privilegios: sudo ./rollback_ip.sh
